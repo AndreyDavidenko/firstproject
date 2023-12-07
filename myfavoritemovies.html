@@ -15,7 +15,7 @@
         margin-bottom: 24px;
     }
 
-    .block {
+    .blockWithCard {
         padding: 14px;
         background-color: rgb(233, 233, 233);
         border-radius: 10px;
@@ -29,13 +29,12 @@
         overflow-x: scroll;
     }
 
-    .block1 {
+    .card {
         padding: 14px;
         background-color: white;
         border-radius: 10px;
         margin-bottom: 20px;
-        width: 250px;
-        height: 350px;
+        min-width: 250px;
         float: left;
         box-shadow: 0px 0px 10px 0px rgb(161, 50, 50);
         flex: 1;
@@ -49,7 +48,7 @@
     }
 
     .blockbody {
-        width: 250px;
+        width: 100%;
         height: 170px;
         overflow-y: auto;
         color: gray;
@@ -64,15 +63,15 @@
 
 <body>
     <div id="div1">Мои любимые фильмы</div>
-    <div class="block">
-        <div class="block1">
+    <div class="blockWithCard">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/1693718/w1500_50263234.jpg">
             <div class="blockTitle">Главный герой</div>
             <div class="blockbody">У сотрудника крупного банка всё идёт по накатанной, пока он однажды не выясняет, что
                 окружающий его мир — часть огромной видеоигры, где игроки могут делать всё, что захотят. И только он
                 может спасти этот мир от окончательного уничтожения.</div>
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/485426/w1500_50293490.jpg">
             <div class="blockTitle">Дэдпул</div>
             <div class="blockbody">Уэйд Уилсон — наёмник. Будучи побочным продуктом программы вооружённых сил под
@@ -82,14 +81,14 @@
                 хочет, — это держат… </div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/2005789/w1500_50499369.jpg">
             <div class="blockTitle">Доктор Стрэндж: В мультивселенной безумия</div>
             <div class="blockbody">Продолжение магических приключений Доктора Стрэнджа в новых мистических мирах и в
                 противостоянии с новыми врагами.</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images.kinorium.com/movie/poster/1442354/h280_50263163.jpg">
             <div class="blockTitle">Мстители: Финал</div>
             <div class="blockbody">Оставшиеся в живых члены команды Мстителей и их союзники должны разработать новый
@@ -97,7 +96,7 @@
                 наиболее масштабной и трагической битвы в истории они не могут допустить ошибку.</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/639254/h280_50284426.jpg">
             <div class="blockTitle">Человек-паук: Возвращение домой</div>
             <div class="blockbody">После исторической встречи с командой Мстителей Питер Паркер возвращается домой,
@@ -107,7 +106,7 @@
                 угрожает унич…</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/758084/h280_50295963.jpg">
             <div class="blockTitle">Первый мститель: Противостояние</div>
             <div class="blockbody">Мстители под руководством Капитана Америки оказываются участниками
@@ -117,7 +116,7 @@
                 супергероев», вынужда… </div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/1609068/h280_50263571.jpg">
             <div class="blockTitle">Человек-паук: Вдали от дома</div>
             <div class="blockbody">Питер Паркер вместе с друзьями отправляется на летние каникулы в Европу. Однако
@@ -125,7 +124,7 @@
                 существ, вызывающих стихийные бедствия и разрушения по всему континенту.</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images.kinorium.com/movie/poster/2139329/h280_50546063.jpg">
             <div class="blockTitle">Человек-паук: Нет пути домой</div>
             <div class="blockbody">Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио
@@ -134,7 +133,7 @@
                 Стивену Стрэнджу, но вскоре всё становится намного опаснее.</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images.kinorium.com/movie/poster/1442353/h280_51624379.jpg">
             <div class="blockTitle">Мстители: Война бесконечности</div>
             <div class="blockbody">Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с
@@ -144,7 +143,7 @@
                 силы, с помощью которых можно…</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/663734/h280_50452158.jpg">
             <div class="blockTitle">Мстители: Эра Альтрона</div>
             <div class="blockbody">Человечество на грани уничтожения. На этот раз людям угрожает Альтрон —
@@ -155,7 +154,7 @@
                 с таким м…</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/566968/h280_50266999.jpg">
             <div class="blockTitle">Чёрная Пантера</div>
             <div class="blockbody">С первого взгляда можно решить, что Ваканда — обычная территория дикой Африки, но
@@ -167,7 +166,7 @@
                 каждый ра… </div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/290389/h280_51624387.jpg">
             <div class="blockTitle">Железный человек</div>
             <div class="blockbody">Миллиардер-изобретатель Тони Старк попадает в плен к Афганским террористам,
@@ -178,7 +177,7 @@
                 он узнаёт, что в со… </div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/457749/h280_51624755.jpg">
             <div class="blockTitle">Железный человек 3</div>
             <div class="blockbody">Когда мир Старка рушится на его глазах по вине неизвестных противников, Тони
@@ -188,7 +187,7 @@
                 на себя и свою изобретательность, чтобы защитить тех, кто ему дорог. mam</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/1559386/h280_50265364.jpg">
             <div class="blockTitle">Дэдпул 2</div>
             <div class="blockbody">
@@ -199,7 +198,7 @@
                 Дэдпул вынужден задуматься о дружбе, семье и о том, что на самом деле значит быть героем, п… </div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/576807/h280_50319911.jpg">
             <div class="blockTitle">Новый Человек-паук: Высокое напряжение</div>
             <div class="blockbody">Питер Паркер под маской Человека-паука по-прежнему спасает мир от злодеев и
@@ -210,7 +209,7 @@
                 девушки, тем са…</div>
 
         </div>
-        <div class="block1">
+        <div class="card">
             <img class="image" src="https://images-s.kinorium.com/movie/poster/696487/h280_50262165.jpg">
             <div class="blockTitle">Kingsman: Секретная служба</div>
             <div class="blockbody">Гэри — молодой парень, который прошел службу в морской пехоте и имеет очень
