@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 100,
+  "screencastMode.fontSize": 90,
+  "editor.accessibilityPageSize": 20,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 14,
+  "html.autoClosingTags": false,
+  "html.completion.attributeDefaultValue": "empty",
+  "typescript.autoClosingTags": false,
+  "typescript.preferences.jsxAttributeCompletionStyle": "none",
+  "html.format.enable": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "eslint.validate": ["graphql", "typescript", "typescriptreact"]
+}
