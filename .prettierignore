@@ -1,0 +1,17 @@
+*.*
+!*.scss
+!*.css
+!*.less
+!*.js
+!*.jsx
+!*.json
+!*.md
+!*.ts
+!*.tsx
+!*.yml
+
+/build
+/node_modules
+src/components/PucciniForm/Types/RegExps.ts
+src/useFetch.tsx
+LICENSE
