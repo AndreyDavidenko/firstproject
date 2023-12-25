@@ -1,8 +1,8 @@
 import "./App.css";
-import { Button, Form, Radio, Space, theme } from "antd";
-import { useForm } from "antd/es/form/Form";
+import { Button, Radio, Space, theme } from "antd";
 import { CSSProperties, FC, useState } from "react";
-import { getTestResult } from "./utils";
+import { getTestResult, testFunc } from "./utils";
+import React from "react";
 
 const { useToken } = theme;
 

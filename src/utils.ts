@@ -1,3 +1,5 @@
 export const getTestResult = (values: number[]): string => {
-  return "kuku";
+  const result = "";
+
+  return result;
 };
