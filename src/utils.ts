@@ -1,26 +1,24 @@
-import { Result } from "antd";
-
 export const getTestResult = (values: number[]): string => {
-  let count1 = 0;
-  let count2 = 0;
-  let count3 = 0;
+  let namRespons1 = 0;
+  let namRespons2 = 0;
+  let namRespons3 = 0;
 
-  for (let i = 0; i < values.length; i++) {
-    if (values[i] === 1) {
-      count1++;
-    } else if (values[i] === 2) {
-      count2++;
-    } else {
-      count3++;
+  values.forEach((elem) => {
+    if (elem === 1) {
+      namRespons1++;
+    } else if (elem === 2) {
+      namRespons2++;
+    } else if (elem === 3) {
+      namRespons3++;
     }
-  }
+  });
 
-  let maxCount = Math.max(count1, count2, count3);
-  if (maxCount == count1) {
+  let maxNamRespons = Math.max(namRespons1, namRespons2, namRespons3);
+  if (maxNamRespons == namRespons1) {
     return `Кабачок`;
-  } else if (maxCount == count2) {
+  } else if (maxNamRespons == namRespons2) {
     return `Баклажан`;
-  } else {
+  } else if (maxNamRespons == namRespons3) {
     return `Тыковка`;
   }
 };
