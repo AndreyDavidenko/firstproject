@@ -1,20 +1,3 @@
-# firstproject
-
-To start wotk enter this code on the console:
-
-// To install dependencies enter this code after first start:
-npm install
-
-// To start dev-server for wotk enter this code:
-npm start
-
-// To commit changes:
-git commit -am 'rels #i4. commitmessage'
-
-// To push changes:
-git push
-
-To start linter and prettier autofixes create file .vscode/settings.json in project. Paste this code in it:
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -38,4 +21,3 @@ To start linter and prettier autofixes create file .vscode/settings.json in proj
   },
   "eslint.validate": ["graphql", "typescript", "typescriptreact"]
 }
-
