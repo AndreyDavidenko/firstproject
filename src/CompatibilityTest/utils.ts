@@ -9,5 +9,5 @@ export const getTestResult = (boyAnswers: number[], girlAnswers: number[]): stri
 
   let percent = (count1 / boyAnswers.length) * 100;
   console.log(count1);
-  return "Вы подходите друг другу на ${percent}%";
+  return `Вы подходите друг другу на ${percent}%`;
 };
